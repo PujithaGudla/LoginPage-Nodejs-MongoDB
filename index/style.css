@@ -1,0 +1,60 @@
+.container{
+    text-align: center;
+    margin: 100px 500px;
+    padding: 30px 30px;
+    border-radius: 5px;
+    background-color: #ecf0f3;
+    box-shadow:  13px 13px 20px #cbced1,
+             -13px -13px 20px #fff;
+}
+
+h1{
+    color:#35a78e;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+label{
+    margin: 10% 10% 10% 12%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+.input{
+    padding: 12px;
+    text-align: left;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    background: #eff1e9;
+    box-shadow: inset 8px 8px 8px #8f918c,
+            inset -8px -8px 8px #ffffff;
+    height: 30px;
+    width: 80%;
+    margin: 5px 10% 20px 7%;
+    padding: 8px;
+    color: rgb(141, 17, 114);
+    font-size: 15px;
+}
+
+input[type="submit"]{
+    padding: 13px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: springgreen;
+    border-radius: 10px;
+    background: #24cfaa;
+    box-shadow:  3px 3px 3px #b1b1b1,
+             3px 3px 3px #fff;
+    margin: 0px 0px 0px 2px;
+    height: 45px;
+}
+
+input[type=submit]:hover {
+    border: 2px solid rgb(49, 175, 165);
+    border-radius: 10px;
+}
